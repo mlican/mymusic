@@ -104,6 +104,13 @@ const ap1 = new APlayer({
         url: '还有我.mp3',
         cover: 'you9.png',
         lrc: "还有我.lrc"
+    },
+    {
+        name: '被遗忘的时光',
+        artist: 'Very',
+        url: '被遗忘的时光.mp3',
+        cover: '被遗忘的时光.jpg',
+        lrc: "被遗忘的时光.lrc"
     }
     ]
 });
