@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>与你一起看世界杯</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <meta name="keywords" content="与你一起看世界杯">
+    <meta name="description" content="专为你制作">
+    <meta name="author" content="韦瑞">
+    <meta name="theme-color" content="#ee6e73">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="materialize.min.css" type="text/css"/>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
+</script>
+    <!--
+    	作者：1084153271@qq.com
+    	时间：2017-02-12
+    	描述：
+    <link href="//cdn.muicss.com/mui-0.9.9-rc2/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.9.9-rc2/js/mui.min.js"></script>-->
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .container {
+            max-width: 32rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-size: 54px;
+            color: #333;
+            margin: 30px 0 10px;
+        }
+        h2 {
+            font-size: 22px;
+            color: #555;
+        }
+        h3 {
+            font-size: 18px;
+            color: #555;
+            
+        }
+        h4 {
+            font-size: 14px;
+            color: #555;
+            
+        }
+        
+        hr {
+            display: block;
+            width: 7rem;
+            height: 1px;
+            margin: 2.5rem 0;
+            background-color: #eee;
+            border: 0;
+        }
+        a {
+            color: #08c;
+            text-decoration: none;
+        }
+        p {
+            font-size: 18px;
+        }
+        .aplayer{
+        
+         height: 100%;
+         width:100%;
+        	
+        }
+     
+      
+    .roud{  
+   float: left;
+   margin: 5px 7px 0px 0px;
+    width: 10px;  
+    height: 10px;  
+    -webkit-transform: rotate(45deg);  
+    -moz-transform: rotate(45deg);  
+    -ms-transform: rotate(45deg);  
+    -o-transform: rotate(45deg);  
+    transform: rotate(45deg);  
+    background-color: #ee6e73;  
+}  
+.roud:before,  
+.roud:after{  
+    position: absolute;  
+    width: 10px;  
+    height: 10px;  
+    content: '';  
+    -webkit-border-radius: 50%;  
+    -moz-border-radius: 50%;  
+    -o-border-radius: 50%;  
+    border-radius: 50%;  
+    background-color: #ee6e73;  
+}  
+.roud:before{  
+    bottom: 0px;  
+    left: -4.5px;  
+}  
+.roud:after{  
+    top: -4.5px;  
+    right: 0px;  
+}  
+    
+      
+     </style>
+       
+     
+      
+</head>
+<body>
+	
+<div>
+	<nav class="waves-effect">
+    	<div class="nav-wrapper">
+    		<a href="https://veryax.coding.me/my_music/cctv5.html" class="brand-logo center">Just for You</a>
+    	</div>
+  	</nav>
+    <div class="container">
+      
+       <div class="menubar">
+        
+        
+					<div class="roud"></div>
+						<h3 class="h3">CCTV-1：（江苏移动直播源）</h3>
+				    <video src="http://223.110.243.155/PLTV/3/224/3221225530/index.m3u8" width="100%" height="100%" controls="controls">
+						</video>
+						</div>
+				
+				<div class="menubar">
+					<div class="roud"></div>
+						<h3 class="h3">CCTV-5：</h3>
+					  <video src="http://223.110.243.155:80/PLTV/3/224/3221226324/index.m3u8" width="100%" height="100%" controls="controls">
+						</video>
+						</div>
+			
+				
+				 <div class="menubar">
+					<div class="roud"></div>
+						<h3 class="h3">CCTV 5+：</h3>
+						<video src="http://223.110.243.155:80/PLTV/3/224/3221226322/index.m3u8" width="100%" height="100%" controls="controls">
+						</video>
+						</div>
+						
+			
+			<div class="menubar">
+				<div class="roud"></div>
+					<h3 class="h3">CCTV-新闻：</h3>
+					<video src="http://223.110.243.155/PLTV/3/224/3221225560/index.m3u8" width="100%" height="100%" controls="controls">
+					</video>
+					</div>
+				
+      
+      <div class="menubar">
+				<div class="roud"></div>
+					<h3 class="h3">浙江卫视：</h3>
+					<video src="http://223.110.243.155:80/PLTV/3/224/3221227215/index.m3u8" width="100%" height="100%" controls="controls">
+					</video>
+					</div>
+      
+				
+			 <div class="menubar">
+       		<div class="roud"></div>
+       	    <h3 class="h3">情人节特别视频：</h3>
+       	    <h4>Celebrate love with Valentines Day</h4>
+       	    <video src="https://liangcen-music.firebaseapp.com/love720.mp4" width="100%" height="100%" controls="controls">
+  			    </video>
+        </div>
+        
+     </div>
+    
+    
+     </div>
+    
+    
+    
+    <script src="materialize.min.js"></script>
+    <script src="APlayer.min.js"></script>
+    <script src="demo3.js"></script>
+    <script src="row.js"></script>
+</body>
+</html>
